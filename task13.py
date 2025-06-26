@@ -6,6 +6,6 @@
 sentence = "Functional programming in Python is very powerful and elegant"
 result = sentence.split(" ")
 
-sort_word = sorted(result,key=lambda x:len(x),reverse=True)
-print(sort_word[:3])
+sort_word = sorted(result,key=lambda x:len(x),reverse=True)[:3]
+print(sort_word)
 
